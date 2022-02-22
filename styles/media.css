@@ -5,16 +5,18 @@
   main {
     flex-direction: column;
   }
+  h1 {
+    margin-left: 0;
+  }
   h2 {
     text-align: center;
+    font-size: 40px;
   }
   p {
     margin: auto;
     text-align: center;
   }
-  h2 {
-    font-size: 40px;
-  }
+
   form {
     margin: 0 auto;
   }
@@ -24,5 +26,32 @@
   }
   img {
     display: none;
+  }
+}
+@media screen and (max-width: 628px) {
+  ul {
+    padding: 0;
+  }
+  li {
+    margin: 10px;
+    padding: 0;
+  }
+  #count {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 444px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 365px) {
+  h2 {
+    font-size: 27px;
   }
 }
